@@ -5,7 +5,7 @@ Hệ thống sẽ tự động tưới cây khi độ ẩm đất giảm xuống
 ![sodokhoi](https://github.com/user-attachments/assets/413d188a-f51a-41fa-b935-5a3963a7f89f)
 
 ## Đặt vấn đề bài toán
-Vấn đề thực tế là trong nông nghiệp đô thị hoặc tại các khu vực có diện tích cây trồng nhỏ, việc tự động tưới cây thường xuyên mà không cần người chăm sóc là rất cần thiết. Hệ thống này giải quyết bài toán tưới cây tự động khi đất quá khô, giúp tiết kiệm nước và công sức, đồng thời đảm bảo cây trồng luôn nhận đủ lượng nước cần thiết, một vấn đề khá thiết thực trong nông nghiệp thông minh.
+Vấn đề thực tế là trong nông nghiệp đô thị hoặc tại các khu vực có diện tích cây trồng nhỏ, việc tự động tưới cây thường xuyên mà không cần người chăm sóc là rất cần thiết. Hệ thống này giải quyết bài toán tưới cây tự động khi đất quá khô, giúp tiết kiệm nước và công sức khi mà mọi người không thể luôn dành thời gian cho việc tưới nước và khu vực khó khăn để tưới, đồng thời đảm bảo cây trồng luôn nhận đủ lượng nước cần thiết, một vấn đề khá thiết thực trong nông nghiệp thông minh.
 ## Các chức năng chính:
 -  Tự động tưới cây: Khi độ ẩm đất dưới mức cài đặt, ESP32 sẽ kích hoạt bơm nước,buzzer để báo hiệu tín hiệu kích hoạt.
 -  Theo dõi từ xa: Người dùng có thể theo dõi trạng thái hệ thống (độ ẩm đất, trạng thái bơm nước) qua Node-RED Dashboard.
