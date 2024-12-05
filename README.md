@@ -17,10 +17,12 @@ Theo dõi từ xa: Người dùng có thể theo dõi trạng thái hệ thống
 ## Demo
 
 Vì thiếu thốn các vật cần thiết nên trong bài tập này,em chỉ demo ở chế độ đơn giản nhất bằng việc sử dụng cốc nước để biểu thị độ ẩm của đất
+
 Hình ảnh demo trường hợp độ khô trên 80%
 ![image](https://github.com/user-attachments/assets/e8078255-7fc4-4253-9bd9-05c7979ed408)
 
 Lúc này relay ON và bơm hoạt độn,có thể thấy vòi bơm nước đang chảy
+
 Hình ảnh demo trường hợp độ khô dưới 80%
 ![image](https://github.com/user-attachments/assets/c192857a-4e43-40c8-858a-8f20c70de657)
 
