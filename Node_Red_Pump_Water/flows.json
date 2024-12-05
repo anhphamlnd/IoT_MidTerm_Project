@@ -1,0 +1,459 @@
+[
+    {
+        "id": "6463db549c6a0e43",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f6ac9cc72432876b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e2a2eeb94c71d272",
+        "type": "ui_tab",
+        "name": "Hệ Thống Tưới Nước Thông Minh Đơn Giản",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b7898b8d86633bff",
+        "type": "ui_group",
+        "name": "Chế độ tự động",
+        "tab": "e2a2eeb94c71d272",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dcd8d329044b5798",
+        "type": "ui_group",
+        "name": "Chuyển đổi chế độ",
+        "tab": "e2a2eeb94c71d272",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2bf4b6ea4b2fde05",
+        "type": "ui_group",
+        "name": "Chế độ thủ công",
+        "tab": "e2a2eeb94c71d272",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "27f5a218cd6d50a4",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "ca_cert.h",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "18f077e5ac23ee91",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "17b5695ce7f242c580137c2723b6e8b4.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "27f5a218cd6d50a4",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "248f39367af26d96",
+        "type": "mqtt in",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "topic": "esp32/soil",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "18f077e5ac23ee91",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "2cfac43b98d7d964",
+                "228f13e75eead4b8",
+                "5e0283c22cf73e05"
+            ]
+        ]
+    },
+    {
+        "id": "2cfac43b98d7d964",
+        "type": "ui_text",
+        "z": "6463db549c6a0e43",
+        "group": "b7898b8d86633bff",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Độ khô của đất",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5e0283c22cf73e05",
+        "type": "ui_gauge",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "b7898b8d86633bff",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Biểu đề gauge biểu diễn độ khô đất",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 760,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "228f13e75eead4b8",
+        "type": "ui_chart",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "b7898b8d86633bff",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Biểu đồ đường biểu diễn độ khô đất",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "def8c3ccfa8d7b8a",
+        "type": "ui_button",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "dcd8d329044b5798",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Tự động",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "yellow",
+        "className": "",
+        "icon": "",
+        "payload": "AUTO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "e55490e7d2535c56"
+            ]
+        ]
+    },
+    {
+        "id": "7f1e466c49af10a6",
+        "type": "ui_button",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "dcd8d329044b5798",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Thủ công",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "blue",
+        "className": "",
+        "icon": "",
+        "payload": "MANUAL",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "e55490e7d2535c56"
+            ]
+        ]
+    },
+    {
+        "id": "e55490e7d2535c56",
+        "type": "mqtt out",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "topic": "esp32/mode",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "18f077e5ac23ee91",
+        "x": 710,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b34b29d0de6397c5",
+        "type": "mqtt out",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "topic": "esp32/relay",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "18f077e5ac23ee91",
+        "x": 730,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "86c381722f46825c",
+        "type": "ui_button",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "2bf4b6ea4b2fde05",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Relay ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 460,
+        "wires": [
+            [
+                "b34b29d0de6397c5"
+            ]
+        ]
+    },
+    {
+        "id": "d380fd1c8f7610a2",
+        "type": "ui_button",
+        "z": "6463db549c6a0e43",
+        "name": "",
+        "group": "2bf4b6ea4b2fde05",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Relay OFF",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "black",
+        "className": "",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 540,
+        "wires": [
+            [
+                "b34b29d0de6397c5"
+            ]
+        ]
+    }
+]
