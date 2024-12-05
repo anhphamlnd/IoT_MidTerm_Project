@@ -34,6 +34,12 @@ Lúc này relay OFF và ngắt hoạt động,có thể thấy vòi bơm nước
 - Node-red em hiển thị 2 chế độ hoạt động là thủ công và tự động
     + Trong trường hợp người dùng muốn chuyển sang chế độ bật tắt relay thì chỉ cần bấm nút thủ công và bật tắt bình thường.
     + Trong trường hợp người dùng muốn chuyển sang chế độ tự động thì chỉ cần bấm nút tự động và nếu độ khô trên 80% thì relay sẽ bật và máy bơm hoạt động.Vì em mới chỉ setup để demo nên em đang coi là 80%,
-    + tùy với loại cây tương thích mà sẽ điều chỉnh cho phù hợp
+      tùy với loại cây tương thích mà sẽ điều chỉnh cho phù hợp
+## Chế độ tự động 
+https://github.com/user-attachments/assets/2a44a4ba-c193-4b0a-8465-cf03adcadbe0
+
+## Chế độ thủ công
+
+https://github.com/user-attachments/assets/3407a345-fd17-4313-971e-3924d26db5c2
 
 ## Note: Trong phần code,em có đang để Soil Moisture là nhưng trên thực tế em sử dụng thì em đang coi đây là độ khô của đất nên có thể gây ra sự nhầm lẫn.
