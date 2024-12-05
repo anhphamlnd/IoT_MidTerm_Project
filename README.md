@@ -21,12 +21,12 @@ Vì thiếu thốn các vật cần thiết nên trong bài tập này,em chỉ 
 Hình ảnh demo trường hợp độ khô trên 80%
 ![image](https://github.com/user-attachments/assets/e8078255-7fc4-4253-9bd9-05c7979ed408)
 
-Lúc này relay ON và bơm hoạt độn,có thể thấy vòi bơm nước đang chảy
+Lúc này relay ON và bơm hoạt động,có thể thấy vòi bơm nước đang chảy
 
 Hình ảnh demo trường hợp độ khô dưới 80%
 ![image](https://github.com/user-attachments/assets/c192857a-4e43-40c8-858a-8f20c70de657)
 
-Lúc này relay ON và bơm hoạt độn,có thể thấy vòi bơm nước đang chảy
+Lúc này relay OFF và ngắt hoạt động,có thể thấy vòi bơm nước không hoạt động
 ## Dashboard
 ![image](https://github.com/user-attachments/assets/ba7c8a29-e13f-494e-adaa-681461fcca35)
 
