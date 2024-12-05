@@ -42,4 +42,4 @@ https://github.com/user-attachments/assets/2a44a4ba-c193-4b0a-8465-cf03adcadbe0
 
 https://github.com/user-attachments/assets/3407a345-fd17-4313-971e-3924d26db5c2
 
-## Note: Trong phần code,em có đang để Soil Moisture là nhưng trên thực tế em sử dụng thì em đang coi đây là độ khô của đất nên có thể gây ra sự nhầm lẫn.
+## Note: Trong phần code,em có đang để Soil Moisture là độ ẩm nhưng trên thực tế em sử dụng thì em đang coi đây là độ khô của đất nên có thể gây ra sự nhầm lẫn.
